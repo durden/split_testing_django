@@ -96,27 +96,108 @@
 <li>Simple implementation</li>
 <li>Pitfalls</li>
 <li>More formal/published attempts</li>
+<li>Django?</li>
 </ul>
 </div>
 </div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/4">
-<h1>A/B Split Testing</h1></div>
+<h1>A/B Split Testing</h1>
+
+<ul>
+<li>Not developer testing</li>
+<li>Designed by marketing, created by developers</li>
+<li>Define variations and goal</li>
+<li>Test site copy, UI layout, form length</li>
+<li>Track conversion rates</li>
+</ul>
+</div>
 </div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/5">
-<h1>Why</h1></div>
+<h1>Why</h1>
+
+<ul>
+<li>Improve overall success of site</li>
+<li>Improve focus on variables that matter</li>
+<li>Easy</li>
+<li>Cheap</li>
+</ul>
+</div>
 </div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/6">
-<h1>Simple Implementation</h1></div>
+<h1>Simple Implementation</h1>
+
+<ul>
+<li>Needs:
+
+<ul>
+<li>Ability to run test for limited time</li>
+<li>Turn on/off immediately</li>
+<li>Track visitors/conversion</li>
+<li>Hide from user</li>
+</ul>
+</li>
+</ul>
+</div>
 </div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/7">
-<h1>Pitfalls</h1></div>
+<h1>A/B Testing Playground</h1>
+
+<ul>
+<li>Goal: Get users to register</li>
+<li>Variations:
+
+<ul>
+<li>Site copy</li>
+<li>Button text</li>
+<li>More data entry</li>
+</ul>
+</li>
+<li><a href="http://split-testing.herokuapp.com/">Playground</a></li>
+</ul>
+</div>
 </div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/8">
-<h1>Formal/full-featured projects</h1></div>
-</div><div class="slide" data-transition="none"><div class="content smaller" ref="one/slides/9">
+<h1>Pitfalls</h1>
+
+<ul>
+<li>Template tied to database entry directly</li>
+<li>New test involves developer, designer, and marketing</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental" ref="one/slides/9">
+<h1>Improvements</h1>
+
+<ul>
+<li>Decorator</li>
+<li>Create template based on choice ID
+
+<ul>
+<li>Caching?</li>
+</ul>
+</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller" ref="one/slides/10">
+<h1>Formal/full-featured projects</h1>
+
+<ul>
+<li><a href="https://github.com/johnboxall/django-ab">django-ab</a></li>
+<li><a href="https://bitbucket.org/akoha/django-lean/wiki/Home">django-lean</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller" ref="one/slides/11">
+<h1>Django?</h1>
+
+<ul>
+<li><a href="www.google.com/websiteoptimizer">Google</a></li>
+<li><a href="http://visualwebsiteoptimizer.com/">Visual Website Optimizer</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller" ref="one/slides/12">
 <h1>Links</h1>
 
 <ul>
 <li><p>Code</p>
 
 <ul>
-<li><a href="http://www.pinboard.in/u:durden/t:split_testing/">references</a></li>
+<li><a href="https://github.com/durden/split_testing_playground">sample app</a></li>
 <li><a href="https://github.com/durden/split_testing_django">presentation code</a></li>
+<li><a href="http://www.pinboard.in/u:durden/t:split_testing/">references</a></li>
 <li><a href="https://github.com/schacon/showoff">showoff</a></li>
 </ul>
 </li>
@@ -124,8 +205,8 @@
 
 <ul>
 <li><a href="http://twitter.com/#!/durden20">@durden20</a></li>
-<li><a href="http://github.com/durden">http://github.com/durden</a></li>
-<li><a href="http://lukelee.net">http://www.lukelee.net</a></li>
+<li><a href="http://github.com/durden">github</a></li>
+<li><a href="http://lukelee.net">lukelee.net</a></li>
 <li><a href="http://codrspace.com/durden">codrspace</a></li>
 <li><a href="http://durden.tumblr.com">tumblr</a></li>
 </ul>
